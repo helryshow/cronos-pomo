@@ -2,6 +2,7 @@
  import './styles/global.css';
  import { Container } from './Componentes/Container';
  import { Heading } from './Componentes/Heading';
+ import { Logo } from './Componentes/Logo';
 
 
  export function App() {
@@ -10,7 +11,7 @@
     return (
     <>
     <Container>
-       <Heading>LOGO</Heading>
+       <Logo/>
     </Container>
        
        <Container>
