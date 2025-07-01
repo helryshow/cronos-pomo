@@ -1,7 +1,7 @@
  import './styles/theme.css';
  import './styles/global.css';
  import { Container } from './Componentes/Container';
- import { Heading } from './Componentes/Heading';
+ import { Menu } from './Componentes/Menu';
  import { Logo } from './Componentes/Logo';
 
 
@@ -15,7 +15,7 @@
     </Container>
        
        <Container>
-       <Heading>MENU</Heading>
+       <Menu/>
     </Container>
 
     </>
