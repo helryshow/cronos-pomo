@@ -27,7 +27,7 @@ import { DefautInput } from './Componentes/DefautInput/Index';
      <Container>
        <form className='form' action="">
          <div className="formRow">
-           <DefautInput labelText='task' id='input' type='text' />
+           <DefautInput labelText='task' id='input' type='text' placeholder='Digite aqui' />
          </div>
 
          <div className="formRow">
