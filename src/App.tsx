@@ -9,7 +9,7 @@ import { useState } from 'react';
  const initialState: TaskStateModel = {
     task: [],
     secondsRemaining: 0,
-    formattedSecondsRemaining: '',
+    formattedSecondsRemaining: '23:10',
     activeTask: null,
     currentCycle: 0,
     config: {
